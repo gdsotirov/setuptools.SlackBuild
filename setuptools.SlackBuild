@@ -19,7 +19,7 @@
 #
 # Visit SlackPack at http://sotirov-bg.net/slackpack/
 #
-# $Id: setuptools.SlackBuild,v 1.1 2013/05/04 09:07:48 gsotirov Exp $
+# $Id: setuptools.SlackBuild,v 1.2 2013/05/04 09:30:00 gsotirov Exp $
 #
 
 . ../../slack-package.conf
@@ -27,7 +27,7 @@
 NAME=setuptools
 VERSION='0.6c11'
 BUILD=${BUILD:-1}
-ARCH=noarch
+ARCH=${ARCH:-i486}
 
 TMP=${TMP:-/tmp}
 CWD=${CWD:-`pwd`}
