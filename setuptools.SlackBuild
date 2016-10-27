@@ -19,15 +19,15 @@
 #
 # Visit SlackPack at http://sotirov-bg.net/slackpack/
 #
-# $Id: setuptools.SlackBuild,v 1.4 2016/07/16 11:16:57 gsotirov Exp $
+# $Id: setuptools.SlackBuild,v 1.5 2016/10/27 13:39:48 gsotirov Exp $
 #
 
 . ../../slack-package.conf
 
 NAME=setuptools
-VERSION=20.6.8
+VERSION=28.6.1
+ARCH=${ARCH:-i586}
 BUILD=${BUILD:-1}
-ARCH=${ARCH:-i486}
 
 TMP=${TMP:-/tmp}
 CWD=${CWD:-`pwd`}
